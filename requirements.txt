@@ -1,8 +1,3 @@
-# OKComputer Backend — Python Dependencies
-# Install: pip install -r requirements.txt --break-system-packages
-fastapi
-uvicorn
-loguru
 # Core Framework
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
@@ -19,24 +14,24 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-dotenv==1.0.1
 
-# AI — Anthropic
+# AI
 anthropic==0.28.0
 
-# Trading — Binance
+# Trading
 python-binance==1.0.19
 ccxt==4.3.11
 
-# Background Tasks & Scheduling
+# Background Tasks
 celery==5.4.0
 redis==5.0.4
 apscheduler==3.10.4
 
-# Data & Analysis
+# Data
 pandas==2.2.2
 numpy==1.26.4
 ta==0.11.0
 
-# HTTP & Async
+# HTTP
 httpx==0.27.0
 aiohttp==3.9.5
 websockets==12.0
@@ -50,5 +45,5 @@ pydantic-settings==2.2.1
 loguru==0.7.2
 arrow==1.3.0
 
-# Email
-resend==1.2.1
+# Email (FIXED)
+resend>=2.0.0
