@@ -14,6 +14,8 @@ from config import settings
 from database.connection import init_db, close_db
 
 # ── LOGGING ───────────────────────────────────────────────────
+import os
+os.makedirs("logs", exist_ok=True)
 logger.remove()
 logger.add(
     sys.stdout,
